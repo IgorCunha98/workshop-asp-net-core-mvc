@@ -19,7 +19,7 @@ namespace SalesWebMvc.Models
         public DateTime BirthDate { get; set; }
 
         [Display(Name = "Base Salary")]
-        [DisplayFormat(DataFormatString ="{0:F2}")]
+        [DisplayFormat(DataFormatString ="{0:C}")]
         public double BaseSalary { get; set; }
 
         public Department Department { get; set; }
